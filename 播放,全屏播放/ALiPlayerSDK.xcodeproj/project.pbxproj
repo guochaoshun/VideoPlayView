@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C288EFD22DD768B00758982 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C288EFC22DD768B00758982 /* AppDelegate.m */; };
+		9C288F0022DD768B00758982 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C288EFF22DD768B00758982 /* ViewController.m */; };
+		9C288F0322DD768B00758982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C288F0122DD768B00758982 /* Main.storyboard */; };
+		9C288F0522DD769D00758982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C288F0422DD769D00758982 /* Assets.xcassets */; };
+		9C288F0822DD769D00758982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C288F0622DD769D00758982 /* LaunchScreen.storyboard */; };
+		9C288F0B22DD769D00758982 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C288F0A22DD769D00758982 /* main.m */; };
+		9C288F1522DD769F00758982 /* ALiPlayerSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C288F1422DD769F00758982 /* ALiPlayerSDKTests.m */; };
+		9C288F2022DD769F00758982 /* ALiPlayerSDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C288F1F22DD769F00758982 /* ALiPlayerSDKUITests.m */; };
+		9C288F3122DD9A6800758982 /* VideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C288F3022DD9A6800758982 /* VideoPlayerView.m */; };
+		9C288F3322DD9B4100758982 /* VideoPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C288F3222DD9B4100758982 /* VideoPlayerView.xib */; };
+		9C89FBBC22DDC9F500DEFFE1 /* ProgressSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C89FBBB22DDC9F500DEFFE1 /* ProgressSlider.m */; };
+		9C89FBC822DEBB0200DEFFE1 /* FullVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C89FBC622DEBB0200DEFFE1 /* FullVideoViewController.m */; };
+		9C89FBC922DEBB0200DEFFE1 /* FullVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C89FBC722DEBB0200DEFFE1 /* FullVideoViewController.xib */; };
+		9C89FBCC22DEC65400DEFFE1 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C89FBCB22DEC65400DEFFE1 /* NavigationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C288F1122DD769F00758982 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C288EF022DD768A00758982 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C288EF722DD768B00758982;
+			remoteInfo = ALiPlayerSDK;
+		};
+		9C288F1C22DD769F00758982 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C288EF022DD768A00758982 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C288EF722DD768B00758982;
+			remoteInfo = ALiPlayerSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C288EF822DD768B00758982 /* ALiPlayerSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALiPlayerSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C288EFB22DD768B00758982 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C288EFC22DD768B00758982 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C288EFE22DD768B00758982 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C288EFF22DD768B00758982 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C288F0222DD768B00758982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C288F0422DD769D00758982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C288F0722DD769D00758982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C288F0922DD769D00758982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C288F0A22DD769D00758982 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C288F1022DD769F00758982 /* ALiPlayerSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALiPlayerSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C288F1422DD769F00758982 /* ALiPlayerSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALiPlayerSDKTests.m; sourceTree = "<group>"; };
+		9C288F1622DD769F00758982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C288F1B22DD769F00758982 /* ALiPlayerSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALiPlayerSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C288F1F22DD769F00758982 /* ALiPlayerSDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALiPlayerSDKUITests.m; sourceTree = "<group>"; };
+		9C288F2122DD769F00758982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C288F2F22DD9A6800758982 /* VideoPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlayerView.h; sourceTree = "<group>"; };
+		9C288F3022DD9A6800758982 /* VideoPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerView.m; sourceTree = "<group>"; };
+		9C288F3222DD9B4100758982 /* VideoPlayerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoPlayerView.xib; sourceTree = "<group>"; };
+		9C89FBBA22DDC9F500DEFFE1 /* ProgressSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressSlider.h; sourceTree = "<group>"; };
+		9C89FBBB22DDC9F500DEFFE1 /* ProgressSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressSlider.m; sourceTree = "<group>"; };
+		9C89FBC522DEBB0200DEFFE1 /* FullVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FullVideoViewController.h; sourceTree = "<group>"; };
+		9C89FBC622DEBB0200DEFFE1 /* FullVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullVideoViewController.m; sourceTree = "<group>"; };
+		9C89FBC722DEBB0200DEFFE1 /* FullVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FullVideoViewController.xib; sourceTree = "<group>"; };
+		9C89FBCA22DEC65400DEFFE1 /* NavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		9C89FBCB22DEC65400DEFFE1 /* NavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C288EF522DD768B00758982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C288F0D22DD769F00758982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C288F1822DD769F00758982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C288EEF22DD768A00758982 = {
+			isa = PBXGroup;
+			children = (
+				9C288EFA22DD768B00758982 /* ALiPlayerSDK */,
+				9C288F1322DD769F00758982 /* ALiPlayerSDKTests */,
+				9C288F1E22DD769F00758982 /* ALiPlayerSDKUITests */,
+				9C288EF922DD768B00758982 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C288EF922DD768B00758982 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C288EF822DD768B00758982 /* ALiPlayerSDK.app */,
+				9C288F1022DD769F00758982 /* ALiPlayerSDKTests.xctest */,
+				9C288F1B22DD769F00758982 /* ALiPlayerSDKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C288EFA22DD768B00758982 /* ALiPlayerSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9C288EFB22DD768B00758982 /* AppDelegate.h */,
+				9C288EFC22DD768B00758982 /* AppDelegate.m */,
+				9C89FBCA22DEC65400DEFFE1 /* NavigationViewController.h */,
+				9C89FBCB22DEC65400DEFFE1 /* NavigationViewController.m */,
+				9C288EFE22DD768B00758982 /* ViewController.h */,
+				9C288EFF22DD768B00758982 /* ViewController.m */,
+				9C288F2F22DD9A6800758982 /* VideoPlayerView.h */,
+				9C288F3022DD9A6800758982 /* VideoPlayerView.m */,
+				9C288F3222DD9B4100758982 /* VideoPlayerView.xib */,
+				9C89FBBA22DDC9F500DEFFE1 /* ProgressSlider.h */,
+				9C89FBBB22DDC9F500DEFFE1 /* ProgressSlider.m */,
+				9C89FBC522DEBB0200DEFFE1 /* FullVideoViewController.h */,
+				9C89FBC622DEBB0200DEFFE1 /* FullVideoViewController.m */,
+				9C89FBC722DEBB0200DEFFE1 /* FullVideoViewController.xib */,
+				9C288F0122DD768B00758982 /* Main.storyboard */,
+				9C288F0422DD769D00758982 /* Assets.xcassets */,
+				9C288F0622DD769D00758982 /* LaunchScreen.storyboard */,
+				9C288F0922DD769D00758982 /* Info.plist */,
+				9C288F0A22DD769D00758982 /* main.m */,
+			);
+			path = ALiPlayerSDK;
+			sourceTree = "<group>";
+		};
+		9C288F1322DD769F00758982 /* ALiPlayerSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C288F1422DD769F00758982 /* ALiPlayerSDKTests.m */,
+				9C288F1622DD769F00758982 /* Info.plist */,
+			);
+			path = ALiPlayerSDKTests;
+			sourceTree = "<group>";
+		};
+		9C288F1E22DD769F00758982 /* ALiPlayerSDKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C288F1F22DD769F00758982 /* ALiPlayerSDKUITests.m */,
+				9C288F2122DD769F00758982 /* Info.plist */,
+			);
+			path = ALiPlayerSDKUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C288EF722DD768B00758982 /* ALiPlayerSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C288F2422DD769F00758982 /* Build configuration list for PBXNativeTarget "ALiPlayerSDK" */;
+			buildPhases = (
+				9C288EF422DD768B00758982 /* Sources */,
+				9C288EF522DD768B00758982 /* Frameworks */,
+				9C288EF622DD768B00758982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALiPlayerSDK;
+			productName = ALiPlayerSDK;
+			productReference = 9C288EF822DD768B00758982 /* ALiPlayerSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C288F0F22DD769F00758982 /* ALiPlayerSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C288F2722DD769F00758982 /* Build configuration list for PBXNativeTarget "ALiPlayerSDKTests" */;
+			buildPhases = (
+				9C288F0C22DD769F00758982 /* Sources */,
+				9C288F0D22DD769F00758982 /* Frameworks */,
+				9C288F0E22DD769F00758982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C288F1222DD769F00758982 /* PBXTargetDependency */,
+			);
+			name = ALiPlayerSDKTests;
+			productName = ALiPlayerSDKTests;
+			productReference = 9C288F1022DD769F00758982 /* ALiPlayerSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C288F1A22DD769F00758982 /* ALiPlayerSDKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C288F2A22DD769F00758982 /* Build configuration list for PBXNativeTarget "ALiPlayerSDKUITests" */;
+			buildPhases = (
+				9C288F1722DD769F00758982 /* Sources */,
+				9C288F1822DD769F00758982 /* Frameworks */,
+				9C288F1922DD769F00758982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C288F1D22DD769F00758982 /* PBXTargetDependency */,
+			);
+			name = ALiPlayerSDKUITests;
+			productName = ALiPlayerSDKUITests;
+			productReference = 9C288F1B22DD769F00758982 /* ALiPlayerSDKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C288EF022DD768A00758982 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "智网易联";
+				TargetAttributes = {
+					9C288EF722DD768B00758982 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					9C288F0F22DD769F00758982 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9C288EF722DD768B00758982;
+					};
+					9C288F1A22DD769F00758982 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9C288EF722DD768B00758982;
+					};
+				};
+			};
+			buildConfigurationList = 9C288EF322DD768A00758982 /* Build configuration list for PBXProject "ALiPlayerSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C288EEF22DD768A00758982;
+			productRefGroup = 9C288EF922DD768B00758982 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C288EF722DD768B00758982 /* ALiPlayerSDK */,
+				9C288F0F22DD769F00758982 /* ALiPlayerSDKTests */,
+				9C288F1A22DD769F00758982 /* ALiPlayerSDKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C288EF622DD768B00758982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C288F3322DD9B4100758982 /* VideoPlayerView.xib in Resources */,
+				9C288F0822DD769D00758982 /* LaunchScreen.storyboard in Resources */,
+				9C288F0522DD769D00758982 /* Assets.xcassets in Resources */,
+				9C288F0322DD768B00758982 /* Main.storyboard in Resources */,
+				9C89FBC922DEBB0200DEFFE1 /* FullVideoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C288F0E22DD769F00758982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C288F1922DD769F00758982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C288EF422DD768B00758982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C288F3122DD9A6800758982 /* VideoPlayerView.m in Sources */,
+				9C288F0022DD768B00758982 /* ViewController.m in Sources */,
+				9C89FBCC22DEC65400DEFFE1 /* NavigationViewController.m in Sources */,
+				9C89FBBC22DDC9F500DEFFE1 /* ProgressSlider.m in Sources */,
+				9C288F0B22DD769D00758982 /* main.m in Sources */,
+				9C288EFD22DD768B00758982 /* AppDelegate.m in Sources */,
+				9C89FBC822DEBB0200DEFFE1 /* FullVideoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C288F0C22DD769F00758982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C288F1522DD769F00758982 /* ALiPlayerSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C288F1722DD769F00758982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C288F2022DD769F00758982 /* ALiPlayerSDKUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C288F1222DD769F00758982 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C288EF722DD768B00758982 /* ALiPlayerSDK */;
+			targetProxy = 9C288F1122DD769F00758982 /* PBXContainerItemProxy */;
+		};
+		9C288F1D22DD769F00758982 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C288EF722DD768B00758982 /* ALiPlayerSDK */;
+			targetProxy = 9C288F1C22DD769F00758982 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C288F0122DD768B00758982 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C288F0222DD768B00758982 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C288F0622DD769D00758982 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C288F0722DD769D00758982 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C288F2222DD769F00758982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C288F2322DD769F00758982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C288F2522DD769F00758982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9Y433KPH7;
+				INFOPLIST_FILE = ALiPlayerSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwyl.www.ALiPlayerSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C288F2622DD769F00758982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9Y433KPH7;
+				INFOPLIST_FILE = ALiPlayerSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwyl.www.ALiPlayerSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C288F2822DD769F00758982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9Y433KPH7;
+				INFOPLIST_FILE = ALiPlayerSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwyl.www.ALiPlayerSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALiPlayerSDK.app/ALiPlayerSDK";
+			};
+			name = Debug;
+		};
+		9C288F2922DD769F00758982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9Y433KPH7;
+				INFOPLIST_FILE = ALiPlayerSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwyl.www.ALiPlayerSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALiPlayerSDK.app/ALiPlayerSDK";
+			};
+			name = Release;
+		};
+		9C288F2B22DD769F00758982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9Y433KPH7;
+				INFOPLIST_FILE = ALiPlayerSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwyl.www.ALiPlayerSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ALiPlayerSDK;
+			};
+			name = Debug;
+		};
+		9C288F2C22DD769F00758982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9Y433KPH7;
+				INFOPLIST_FILE = ALiPlayerSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwyl.www.ALiPlayerSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ALiPlayerSDK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C288EF322DD768A00758982 /* Build configuration list for PBXProject "ALiPlayerSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C288F2222DD769F00758982 /* Debug */,
+				9C288F2322DD769F00758982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C288F2422DD769F00758982 /* Build configuration list for PBXNativeTarget "ALiPlayerSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C288F2522DD769F00758982 /* Debug */,
+				9C288F2622DD769F00758982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C288F2722DD769F00758982 /* Build configuration list for PBXNativeTarget "ALiPlayerSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C288F2822DD769F00758982 /* Debug */,
+				9C288F2922DD769F00758982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C288F2A22DD769F00758982 /* Build configuration list for PBXNativeTarget "ALiPlayerSDKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C288F2B22DD769F00758982 /* Debug */,
+				9C288F2C22DD769F00758982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C288EF022DD768A00758982 /* Project object */;
+}
