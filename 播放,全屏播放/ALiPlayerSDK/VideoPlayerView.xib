@@ -126,6 +126,7 @@
                 <outlet property="cashProgress" destination="nur-A3-OBM" id="IxD-XI-wYz"/>
                 <outlet property="controllView" destination="12Q-Lv-6Qo" id="Etq-fi-R5r"/>
                 <outlet property="currentTimeLabel" destination="qpt-s3-YG8" id="CHV-ye-RgO"/>
+                <outlet property="fullScreenBottom" destination="XMa-L0-X4w" id="Oh9-VY-Jw4"/>
                 <outlet property="fullScreenButton" destination="PWx-Ag-hLd" id="pAL-9L-bUl"/>
                 <outlet property="playButton" destination="J6i-Md-631" id="yGY-lt-zIP"/>
                 <outlet property="progressSlider" destination="R43-6R-phv" id="l0w-v6-OD2"/>

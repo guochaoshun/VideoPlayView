@@ -33,8 +33,7 @@
 }
 
 - (void)viewDidLayoutSubviews {
-//    self.avPlayer.frame = self.view.bounds;
-    self.avPlayer.frame = self.view.safeAreaLayoutGuide.layoutFrame;
+    self.avPlayer.frame = self.view.bounds;
 }
 
 

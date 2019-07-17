@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "VideoPlayerView.h"
 #import "FullVideoViewController.h"
+#import <AVKit/AVKit.h>
 
 #define WeakSelf  __weak __typeof(self)weakSelf = self;
 #define Screen_Width [[UIScreen mainScreen] bounds].size.width
@@ -49,22 +50,10 @@
     }];
     
     // 用系统的全屏播放
-    //    AVPlayerViewController * av = [[AVPlayerViewController alloc] init];
-    //
-    //    av.player = [AVPlayer playerWithURL:[NSURL URLWithString:self.videoUrl]];
-    //
-    //    float total = CMTimeGetSeconds(self.player.currentItem.duration);//总的播放时间(秒）
-    //    [av.player seekToTime:CMTimeMake(self.progressSlider.value * total, 100) toleranceBefore:CMTimeMake(1, 10) toleranceAfter:CMTimeMake(1, 10) completionHandler:^(BOOL finished) {
-    //
-    //        [av.player play];
-    //    }];
-    //
-    //    [av.player addPeriodicTimeObserverForInterval:CMTimeMake(1, 10) queue:dispatch_get_main_queue() usingBlock:^(CMTime time) {
-    //        [self.player seekToTime:time];
-    //    }];
-    //
-    //    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:av animated:NO completion:^{
-    //    }];
+//        AVPlayerViewController * av = [[AVPlayerViewController alloc] init];
+//        av.player = [AVPlayer playerWithURL:[NSURL URLWithString:self.avplayer.videoUrl]];
+//        [self presentViewController:av animated:NO completion:^{
+//        }];
 }
 
 - (void)viewDidLayoutSubviews {

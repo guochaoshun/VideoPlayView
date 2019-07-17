@@ -23,6 +23,8 @@
 @property (weak, nonatomic) IBOutlet UIButton *playButton;
 
 @property (weak, nonatomic) IBOutlet UIButton *fullScreenButton;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *fullScreenBottom;
+
 /// 当前的播放进度
 @property (weak, nonatomic) IBOutlet UIProgressView *progressView;
 
@@ -110,7 +112,6 @@
 }
 /// 点击了全屏
 - (IBAction)fullScreenAction:(id)sender {
-    
     
     if ([self.delegate respondsToSelector:@selector(videoPlayerView:fullScreenAction:)]){
         [self.delegate videoPlayerView:self fullScreenAction:self.fullScreenButton];
@@ -208,7 +209,18 @@
 
 - (void)layoutSubviews {
     [super layoutSubviews];
-//    _playerLayer.frame = self.bounds;
+
+
+//    if (是苹果x&&Screen_Width<Screen_Height) {
+    //        self.fullScreenBottom.constant = 40;
+//    } else {
+    //        self.fullScreenBottom.constant = 10;
+//    }
+    if (CGSizeEqualToSize(self.bounds.size, CGSizeMake(Screen_Width, Screen_Height))) {
+        self.fullScreenBottom.constant = self.safeAreaInsets.bottom + 10;        
+    }
+    
+    
     
     //获取视频的屏幕宽高比，让播放的宽高比与视频的一致。
     AVURLAsset  *asset = [AVURLAsset assetWithURL: [NSURL URLWithString:self.videoUrl]];
