@@ -221,7 +221,6 @@
     }
     
     
-    
     //获取视频的屏幕宽高比，让播放的宽高比与视频的一致。
     AVURLAsset  *asset = [AVURLAsset assetWithURL: [NSURL URLWithString:self.videoUrl]];
     NSArray *array = asset.tracks;
@@ -236,18 +235,18 @@
             CGFloat marginY = 0;
             if (sacle > 1) {
                 //如果屏幕的宽高比大于1，说明宽度大于高度，那以屏幕的宽度为准，适配视频的高度
-                height =  width / sacle;
-                marginY = (self.bounds.size.height - height) * 0.5;
+//                height =  width / sacle;
+//                marginY = (self.bounds.size.height - height) * 0.5;
             }else {
                 //如果屏幕的宽高比小于1，说明宽度小于高度，那以屏幕的高度为准，适配视频的宽度
-                width = height * sacle;
-                marginX = (self.bounds.size.width - width) * 0.5;
+//                width = height * sacle;
+//                marginX = (self.bounds.size.width - width) * 0.5;
             }
             self.playerLayer.frame = CGRectMake(marginX, marginY, width, height);
             
         }
     }
-    self.playerLayer.videoGravity = AVLayerVideoGravityResizeAspectFill ;
+    self.playerLayer.videoGravity = AVLayerVideoGravityResizeAspect ;
     
 }
 

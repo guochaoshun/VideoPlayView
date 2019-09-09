@@ -109,7 +109,7 @@
                     <color key="trackTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </progressView>
             </subviews>
-            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="12Q-Lv-6Qo" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4eW-qJ-QAN"/>
                 <constraint firstItem="12Q-Lv-6Qo" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="8BZ-t6-5P5"/>
